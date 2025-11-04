@@ -4,4 +4,4 @@
 2. Go to 'tasks1' directory in terminal
 3. Use the command to run the application:
 '''bash
-python tasks.py
+py tasks.py
