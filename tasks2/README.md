@@ -1,6 +1,4 @@
-# Tasks 2 Project
-
-# Using SQLite database to store tasks.
+# Tasks 2 Project: Using SQLite database to store tasks.
 
 ## How to Run
 1. Make sure Python is installed
