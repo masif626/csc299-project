@@ -1,4 +1,4 @@
-#Tasks 2 Project
+# Tasks 2 Project
 
 # Using SQLite database to store tasks.
 
@@ -7,7 +7,7 @@
 2. Go to 'tasks2' directory in terminal.
 3. The program uses database file called "tasks.db".
 
-###List all tasks
+### List all tasks
 py tasks.py list
 
 ### Add new task
