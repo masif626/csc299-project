@@ -1,0 +1,2 @@
+[console_scripts]
+tasks3 = tasks3:main

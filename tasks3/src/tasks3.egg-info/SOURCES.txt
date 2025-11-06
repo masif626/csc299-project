@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/tasks3/__init__.py
+src/tasks3.egg-info/PKG-INFO
+src/tasks3.egg-info/SOURCES.txt
+src/tasks3.egg-info/dependency_links.txt
+src/tasks3.egg-info/entry_points.txt
+src/tasks3.egg-info/top_level.txt
+tests/test_inc.py
+tests/test_tasks.py
