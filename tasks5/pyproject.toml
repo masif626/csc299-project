@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "tasks5"
+version = "0.1.0"
+description = "A task manager built by fulfilling a spec.md"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,14 +1,20 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.built_meta"
 [project]
 name = "tasks4"
 version = "0.1.0"
-description = "Add your description here"
+description = "A Python App to Summerize text using Open API."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "openai>=2.7.2",
 ]
-
+[project.scripts]
+tasks4 = "tasks4:main"
 [dependency-groups]
 dev = [
     "pytest>=9.0.0",
 ]
+[tool.setuptools.packages.find]
+where = ["src"]
