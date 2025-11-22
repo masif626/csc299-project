@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "mindquest"
+version = "0.1.0"
+description = "MindQuest: AI-Powered Journal and Task Manager"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openai>=1.0"
+]
+[project.scripts]
+mindquest = "mindquest:main"
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "python-dotenv>=1.0.0"
+]
+[tool.setuptools.packages.find]
+where = ["src"]

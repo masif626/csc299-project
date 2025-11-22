@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/mindquest/__init__.py
+src/mindquest.egg-info/PKG-INFO
+src/mindquest.egg-info/SOURCES.txt
+src/mindquest.egg-info/dependency_links.txt
+src/mindquest.egg-info/entry_points.txt
+src/mindquest.egg-info/requires.txt
+src/mindquest.egg-info/top_level.txt

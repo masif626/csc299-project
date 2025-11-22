@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: mindquest
+Version: 0.1.0
+Summary: MindQuest: AI-Powered Journal and Task Manager
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: openai>=1.0
