@@ -29,10 +29,10 @@ MindQuest is a command line application developed in Python. It functions as a P
 
 ## Command Reference
 
-mindquest status : Display current XP, Level and Adventure Name.
-mindquest mood-board : Shows the average sentiment score over the last seven days.
-mindquest quest add <text> : Adds a new quest(task).
-mindquest quest done <id> : Marks quest as complete and awards XP.
-mindquest journal add <text> : Writes a new journal entry and runs AI sentiment analysis.
-mindquest journal list : Shows at least five entries with sentiment scores.
-mindquest journal remove <id> : Permanently removes journal entry. 
+1. mindquest status : Display current XP, Level and Adventure Name.
+2. mindquest mood-board : Shows the average sentiment score over the last seven days.
+3. mindquest quest add <text> : Adds a new quest(task).
+4. mindquest quest done <id> : Marks quest as complete and awards XP.
+5. mindquest journal add <text> : Writes a new journal entry and runs AI sentiment analysis.
+6. mindquest journal list : Shows at least five entries with sentiment scores.
+7. mindquest journal remove <id> : Permanently removes journal entry. 
