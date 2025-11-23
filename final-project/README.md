@@ -4,11 +4,11 @@ MindQuest is a command line application developed in Python. It functions as a P
 
 ## Technical Stack
 
-**Language**: Python
-**Database**: SQLite
-**AI Integration**: OpenAI API (gpt-3.5-turbo)
-**Key Libraries:**: openai, python-dotenv, pytest
-**Process**: Specification Driven Developement
+- **Language**: Python
+- **Database**: SQLite
+- **AI Integration**: OpenAI API (gpt-3.5-turbo)
+- **Key Libraries:**: openai, python-dotenv, pytest
+- **Process**: Specification Driven Developement
 
 ## Setup and Installation
 
