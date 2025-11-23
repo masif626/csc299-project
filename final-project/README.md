@@ -13,19 +13,15 @@ MindQuest is a command line application developed in Python. It functions as a P
 ## Setup and Installation
 
 1. Activate Virtual Environment: 
-    ''' bash
     py -m venv .venv
     .\.venv\Scripts\Activate.ps1
-    '''
+    
 2. Install Project: 
-    '''bash
     py -m pip install -e .
     py -m pip install python-dotenv
-    '''
+    
 3. Set API Key: 
-    '''bash
     $env:OPENAI_API_KEY = "sk-Enter-Key"
-    '''
 
 ## Command Reference
 
