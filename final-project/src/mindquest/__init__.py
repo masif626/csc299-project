@@ -145,7 +145,6 @@ def add_journal_entry(content):
         cursor.execute("INSERT INTO journal (content, sentiment_score) VALUES (?, ?)", (content, sentiment_score))
         conn.commit()
     print(f"✍️ Journal Entry Logged. Sentiment: {sentiment_score:.2f}")
-    ################################################################
 
 def list_journal():
     with get_db_connection() as conn:
@@ -183,7 +182,7 @@ def remove_journal_entry(entry_id):
         conn.commit()
 
 def display_mood_board():
-    seven_days_ago = (datetime.now() - timedelta(days=7).strfttime('%Y-%m-%d %H:%M:%S'))
+    seven_days_ago = (datetime.now() - timedelta(days=7)).strftime('%Y-%m-%d %H:%M:%S')
     with get_db_connection() as conn:
         cursor = conn.cursor()
         cursor.execute("""
